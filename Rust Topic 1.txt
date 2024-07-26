@@ -9,3 +9,4 @@ Rust Programming Topic 1
    - Rust Don't have Garbage collection 
        -It uses the concept of Ownership and Borrowing for memory management.
     - Rust as package manager called CARGO its similar to npm. 
+   - Rust programs are saved with the extension " .rs ".

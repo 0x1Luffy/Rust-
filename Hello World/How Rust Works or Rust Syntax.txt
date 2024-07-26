@@ -1,0 +1,28 @@
+How Rust Works or Rust Syntax
+
+ - Just like c or C++ rust starts with the main function so we need to define a main function first 
+  
+     fn main ()
+    {
+       println!("hello World');
+      
+       }
+
+
+  - to print something in rust we use println!
+
+  - To run the rust file or program the following steps are done
+
+     -Type rustc name of the program 
+      - eg: rustc hello.rs 
+
+  - Rust builds a .exe file for that.
+
+## Important Note 
+
+  - Everytime you make a change in the code you have to comile that whole code again 
+    if not done the privous compiled state output will be displayed.
+
+ - So to avoid this step every time we use cargo package to create a project.
+
+    

@@ -1,0 +1,18 @@
+## How to create a Rust project using Cargo
+
+  -Cargo is a package manager for Rust 
+  -Its same like what npm does 
+
+## Steps to initilize the project using Cargo
+
+   - type cargo new name of the project 
+    -eg: cargo new helloWorld2
+
+
+## What is Cargo.toml File
+
+ - Just like package.json its the file that contains all the dependences.
+
+## How to Run the project now using cargo
+ 
+  - Just type cargo run it will run and build the code for you
