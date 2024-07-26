@@ -1,0 +1,11 @@
+Rust Programming Topic 1
+
+   - Rust is systems programming language like c and C++.
+   - It is compile programming language.
+   - Rust has advantages like
+      - Speed
+      - Safety
+      - Portability
+   - Rust Don't have Garbage collection 
+       -It uses the concept of Ownership and Borrowing for memory management.
+    - Rust as package manager called CARGO its similar to npm. 
