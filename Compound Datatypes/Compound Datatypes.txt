@@ -1,0 +1,25 @@
+## Compound datatypes in Rust 
+
+ ## There are majorly 5 Compound datatypes in Rust 
+
+  - Arrays
+  - Tuples
+  - Slices 
+  - Strings
+  - Slice String
+
+
+## Important Note 
+
+  # There are two display formats in Rust
+   - Debuggable Format  (:?)
+   - Display Format (Default)
+
+
+## Arrays
+
+ - Fixed sized collection of elements of similar datatypes
+ - Syntax:
+
+   let name_array:[datatype; size_of_array] = [1,2,3,4,5]
+
