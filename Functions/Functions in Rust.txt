@@ -1,0 +1,17 @@
+## Functions in Rust 
+
+ - Functions and their varibable name should always be 
+   written in snake_case 
+    -  eg: fn my_function()
+        {
+
+            }
+
+- In Rust functions are Hoisted 
+
+## Functions with arguments 
+
+ eg: fn my_height(heght: u32)
+ {
+    println!("Height is : {}", heght);
+ } 
