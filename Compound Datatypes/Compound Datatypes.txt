@@ -23,3 +23,11 @@
 
    let name_array:[datatype; size_of_array] = [1,2,3,4,5]
 
+## Tuples
+
+ - It contains data of diffirant datatypes
+ - Its similar to array but it can hold data of multiple datatypes
+
+ # Syntax
+   
+   let Tuple_name:(&str;i16;bool) = ("Chetan", 22, true)
