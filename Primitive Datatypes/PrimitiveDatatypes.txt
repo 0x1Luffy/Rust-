@@ -1,0 +1,44 @@
+## Primitive Datatypes in Rust
+
+ - Since Rust is Statically typed data Language it has some Datatypes
+
+ -There are majorly 4 Datatypes in Rust 
+   -Integer
+   -Float
+   -Bool
+   -Char
+
+##Integer 
+  
+  # Rust has 
+    - signed (+ and -)
+    - unsigned (Holds only Positive Intergers, has different sizes)
+
+ #Signed Interger
+
+ i8, i16, i32, i64, i128
+
+##Unsigned Integer
+
+ u8, u16, u32, u64, u128
+
+
+##Floats
+ -Only two types of floating points
+
+   f32, f64
+
+## Booleans 
+
+ - True 
+ - False
+
+## Character
+
+ - It represents single Unicode Scalar Value 
+ - eg : a,b,c,d,x,y,z
+ 
+
+
+
+
