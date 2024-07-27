@@ -1,0 +1,25 @@
+## Expressions and Statements 
+
+ ##Expressions 
+
+  - anything that returns a value
+  - eg: 5, true false, add(3,4), if conditions, else conditions
+
+ ##Statements
+   
+  - anything that does not return a value
+  - almost all Statements in rust ends with ;
+  eg: let x:i32 = 4;
+     varibable declarations are considered as Statements
+
+## Important Note 
+
+  # In Rust if you want to declare variable globally 
+   i.e outside the main function then you have to 
+   " Declare it using const  " and " Upper snake case (_X) "
+
+## Expression Syntax
+
+  let x: (datatype) = {
+    anything
+  }

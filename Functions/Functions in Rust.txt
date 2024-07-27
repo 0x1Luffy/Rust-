@@ -15,3 +15,19 @@
  {
     println!("Height is : {}", heght);
  } 
+
+
+## Functions Returning Value 
+  
+  - The functions that Return values have an 
+   different writing and calling style/syntax
+
+   #syntax 
+     - fn add(a:i8 , b:i32) -> i32 
+     {
+        a + b
+     }
+
+     in above function the arrow dipects that the functions
+     is supposed to return something 
+     - The return type should also be specified (->i32)
