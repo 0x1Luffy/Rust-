@@ -1,0 +1,16 @@
+## Ownership In Rust 
+
+ - Ownership is Rust's most unique feature, and it enables Rust 
+   to make memeory safety guarantees without needing a garbage collector.
+
+
+## OWNERSHIP RULES (Most Important) 
+
+  ## Rule 1:
+     - Each value in Rust has a variable that's called its owner.
+
+  ## Rule 2:
+     - There can be only one "Owner" at a time.
+
+  ## Rule 3:
+     - When the Owner goes out of the scope, the value will be dropped.
