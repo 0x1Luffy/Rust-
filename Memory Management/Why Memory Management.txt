@@ -1,0 +1,24 @@
+## Why Memory Management required?
+
+ - in C and C++ Language when we create Memory 
+ and we use pointers to use and assign value to the Memory.
+ - So after the Memory usage is done we free that Memory
+   but still that pointer which was pointing towards that block
+   of Memory is accessiable and now that pointer contains a garbage value.
+
+ - This phenomium is known as dangling pointer.
+
+ ## Stack vs Heap 
+
+  ## Stack 
+
+   - Static memory allocation 
+   - Compiler already knows about the requirement
+   - ummutable in nature.
+
+ ## Heap
+
+   - Dynamic memory allocation
+   - mutable in nature
+   - ownership concept are mostly applied on heap memory
+   - memory is allocated at runtime
