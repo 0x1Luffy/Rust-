@@ -1,0 +1,21 @@
+## Borrowing in Rust 
+
+ - Borrowing in rust is like lending the varible for some time 
+   to another variable.
+ - No ownership transfer happens while Borrowing.
+ # If a varibable is borrowed, the the one who is Borrowing 
+   cannot make changes in it. (Unless Specifeied explicitly)
+ - We can borrow a variable in two ways: 
+    # immutable and 
+    # mutable.
+ 
+ # Syntax for simple Borrowing
+
+   - just adding '&'.
+
+# Mutable Borrowing
+  - To borrow and make changes into that requires 
+    permission from the owner of that varibable.
+  - The owner have to explicitly give right to make changes 
+    
+     # he can Specify it by adding (&mut)
