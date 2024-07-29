@@ -1,0 +1,22 @@
+## Referencing Rules
+
+ - While taking reference or borrowing the value 
+   you should always keep somethings in consideration
+
+ # If you taking or borrowing a variable then use it only single time
+   or only within that phase.
+
+   eg: let mut s1:String = String::from("Hello");
+        let s2:String = &mut s1;
+        println!("{}", s2);
+
+    now in the above code i have reffered the s1 and keep it into s2
+    and i am using it right away.
+
+    - But if i use it again later in the code it will throw an error
+    - as when you use any reffered value and "Again when you crerate a new reffered variable"
+      then the old one is killed there.
+
+ ## Read and Write Synchronization
+
+  - While reading and writing into a variable it should be Synchronized.
