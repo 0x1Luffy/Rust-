@@ -1,0 +1,20 @@
+## Dereferencing & AutoDereferencing
+
+
+# Dereferencing 
+  - Accessing the value that a reference points to.
+    Syntax: Use the * symbol to dereference a reference.
+
+    eg:     let x = 5;
+            let y = &x;  // y is a reference to x
+            let z = *y; // z is the value that y points to, which is 5
+
+# AutoDereferencing 
+   - Rust can automatically dereference references in certain contexts,
+    simplifying code by eliminating the need for explicit dereferencing 
+    with the * operator.
+
+
+## Important Note: 
+    - Sometimes you have to explicitly derefer the values.
+    - And Sometimes AutoDereferencing Works.
